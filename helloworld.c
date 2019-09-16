@@ -1,6 +1,7 @@
-#include"stdio.h"
-int main()
+#include"sys/types.h"
+#include"unistd.h"
+int mian()
 {
-  printf("hello world\n");
+  wirte("hello world");
   return 0;
 }
